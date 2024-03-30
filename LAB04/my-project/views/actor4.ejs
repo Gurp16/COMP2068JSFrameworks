@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Indian Actor - Ranveer Singh</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <style>
+        /* Professional CSS style for the title */
+        .title {
+            font-size: 2.5rem; /* Adjust font size as needed */
+            color: #333; /* Dark text color */
+            text-align: center; /* Center align the text */
+            margin-top: 80px; /* Add space below the title */
+            font-family: 'Arial Black', sans-serif; /* Use a bold sans-serif font */
+            font-weight: bold; /* Make the title bold */
+        }
+
+        /* Style for actor details */
+        .actor-details {
+            margin: 30px auto; /* Center the actor details */
+            max-width: 600px; /* Limit width to improve readability */
+            padding: 20px; /* Add padding for better visual appearance */
+            background-color: #f4f4f4; /* Light gray background color for actor details */
+            border-radius: 10px; /* Add rounded corners */
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+        }
+
+        /* Style for actor image */
+        .actor-image {
+            width: 100%; /* Ensure the image fills the container */
+            border-radius: 10px; /* Add rounded corners */
+            margin-bottom: 20px; /* Add space below the image */
+        }
+
+        /* Style for actor name */
+        .actor-name {
+            font-size: 1.8rem; /* Adjust font size for actor name */
+            color: #333; /* Dark text color */
+            margin-bottom: 10px; /* Add space below the actor name */
+        }
+
+        /* Style for actor bio */
+        .actor-bio {
+            font-size: 1.2rem; /* Adjust font size for actor bio */
+            color: #666; /* Dark gray text color */
+            line-height: 1.5; /* Set line height for better readability */
+            margin-bottom: 20px; /* Add space below the actor bio */
+        }
+    </style>
+</head>
+<body>
+    <!-- Include header partial with navbar -->
+    <% include partials/header %>
+
+    <!-- Main content for Indian Actor page -->
+    <div class="container">
+        <div class="actor-details">
+            <img class="actor-image" src="/images/image4.jpg" alt="Ranveer Singh">
+            <h2 class="actor-name">Ranveer Singh</h2>
+            <p class="actor-bio">
+                Ranveer Singh, born on July 6, 1985, in Mumbai, India, is known for his energetic performances and unconventional style. He made his acting debut in 2010 with the film "Band Baaja Baaraat" and quickly rose to fame.
+                <br><br>
+                Singh has garnered praise for his roles in films such as "Gully Boy," "Padmaavat," and "Bajirao Mastani." His dynamic presence on-screen, coupled with his ability to immerse himself in diverse characters, has made him a favorite among audiences and critics alike.
+                <br><br>
+                Apart from his acting career, Ranveer Singh is also known for his bold fashion choices and charismatic personality. He continues to push boundaries in both his professional and personal life, earning him widespread admiration and respect.
+            </p>
+        </div>
+    </div>
+
+    <!-- Include footer partial -->
+    <% include partials/footer %>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Indian Actor - Shah Rukh Khan</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <style>
+        /* Professional CSS style for the title */
+        .title {
+            font-size: 2.5rem; /* Adjust font size as needed */
+            color: #333; /* Dark text color */
+            text-align: center; /* Center align the text */
+            margin-top: 80px; /* Add space below the title */
+            font-family: Arial, sans-serif; /* Use a clean sans-serif font */
+            font-weight: bold; /* Make the title bold */
+        }
+
+        /* Style for actor details */
+        .actor-details {
+            margin: 30px auto; /* Center the actor details */
+            max-width: 600px; /* Limit width to improve readability */
+            padding: 20px; /* Add padding for better visual appearance */
+            background-color: #fff; /* White background color for actor details */
+            border-radius: 10px; /* Add rounded corners */
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+        }
+
+        /* Style for actor image */
+        .actor-image {
+            width: 100%; /* Ensure the image fills the container */
+            border-radius: 10px; /* Add rounded corners */
+            margin-bottom: 20px; /* Add space below the image */
+        }
+
+        /* Style for actor name */
+        .actor-name {
+            font-size: 1.8rem; /* Adjust font size for actor name */
+            color: #333; /* Dark text color */
+            margin-bottom: 10px; /* Add space below the actor name */
+        }
+
+        /* Style for actor bio */
+        .actor-bio {
+            font-size: 1.2rem; /* Adjust font size for actor bio */
+            color: #666; /* Dark gray text color */
+            line-height: 1.5; /* Set line height for better readability */
+            margin-bottom: 20px; /* Add space below the actor bio */
+        }
+
+        /* Apply linear gradient background */
+        body {
+            background: linear-gradient(135deg, #f0f0f0, #dcdcdc); /* Light grey gradient colors */
+            min-height: 100vh; /* Set minimum height to cover the viewport */
+            display: flex; /* Use flexbox for vertical centering */
+            flex-direction: column; /* Stack child elements vertically */
+            justify-content: center; /* Center content horizontally */
+            align-items: center; /* Center content vertically */
+        }
+    </style>
+</head>
+<body>
+    <!-- Include header partial with navbar -->
+    <% include partials/header %>
+
+    <!-- Main content for Indian Actor page -->
+    <div class="container">
+        <div class="actor-details">
+            <img class="actor-image" src="/images/image1.jpg" alt="Shah Rukh Khan">
+            <h2 class="actor-name">Shah Rukh Khan</h2>
+            <p class="actor-bio">
+                Shah Rukh Khan, often referred to as the "King of Bollywood," is one of the most renowned actors in the Indian film industry. Born on November 2, 1965, in New Delhi, India, Khan began his career in television before making his Bollywood debut in 1992 with the film "Deewana."
+                <br><br>
+                Over the years, Shah Rukh Khan has established himself as one of the most versatile and successful actors, starring in numerous blockbuster films such as "Dilwale Dulhania Le Jayenge," "Kuch Kuch Hota Hai," "Devdas," and "Chennai Express." His performances have earned him numerous awards and accolades, including multiple Filmfare Awards.
+                <br><br>
+                Apart from acting, Shah Rukh Khan is also a successful film producer and entrepreneur. He has founded his production company, Red Chillies Entertainment, and co-owns the Indian Premier League cricket team Kolkata Knight Riders.
+                <br><br>
+                Khan's charm, charisma, and dedication to his craft have earned him a massive fan following not only in India but also worldwide. He continues to be one of the most influential and beloved figures in Indian cinema.
+            </p>
+        </div>
+    </div>
+
+    <!-- Include footer partial -->
+    <% include partials/footer %>
+</body>
+</html>
