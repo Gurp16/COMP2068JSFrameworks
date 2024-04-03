@@ -33,7 +33,7 @@ Install dependencies using npm install.
 Set up a MongoDB database either locally or on MongoDB Atlas.
 Update the database credentials in the config file.
 Run the application using npm start.
-Access the application in your web browser at http://localhost:3000.
+Access the application in your web browser at http://localhost:3002.
 Credits
 Bootstrap Template: Start Bootstrap - SB Admin 2
 MongoDB/Mongoose Documentation
